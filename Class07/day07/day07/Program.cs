@@ -17,42 +17,42 @@ namespace day07
             //list.Append(4);
             //list.Append(5);
 
-            //int[] input = new int[] { 1, 2, 3, 4, 5,5,6,7,8 };
+            //int[] input = new int[] { 1, 2, 3, 4, 5, 5, 6, 7, 8 };
 
             //Console.WriteLine($"The size of the input is: {input.Length}");
             //LinearTime(input);
             //ConstantTime(input);
             //QuadraticTime(input);
 
-            //PlayingWithEnums();
+            PlayingWithEnums();
 
-            //CustomList<string> list = new CustomList<string>();
-            //list.Add("Gregor");
-            //list.Add("Hound");
-            //list.Add("Khaleesi");
-            //list.Add("Khal Basil");
+            CustomList<string> list = new CustomList<string>();
+            list.Add("Gregor");
+            list.Add("Hound");
+            list.Add("Khaleesi");
+            list.Add("Khal Basil");
 
-            //foreach(string current in list)
-            //{
-            //    Console.WriteLine(current);
-            //}
+            foreach (string current in list)
+            {
+                Console.WriteLine(current);
+            }
 
-            //CustomList<bool> listBool = new CustomList<bool>();
-            //listBool.Add(true);
-            //listBool.Add(true);
-            //listBool.Add(true);
-            //listBool.Add(true);
-            //listBool.Add(true);
+            CustomList<bool> listBool = new CustomList<bool>();
+            listBool.Add(true);
+            listBool.Add(true);
+            listBool.Add(true);
+            listBool.Add(true);
+            listBool.Add(true);
 
-            //foreach(bool current in listBool)
-            //{
-            //    Console.WriteLine(current);
-            //}
+            foreach (bool current in listBool)
+            {
+                Console.WriteLine(current);
+            }
 
-            //foreach (int value in PlayingWithYield())
-            //{
-            //    Console.WriteLine(value);
-            //}
+            foreach (int value in PlayingWithYield())
+            {
+                Console.WriteLine(value);
+            }
 
             PlayingWithCollections();
 
